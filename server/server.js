@@ -27,7 +27,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 const port = process.env.PORT || 1900
 
-mongoose.connect(process.env.dbDriver,{
+mongoose.connect(process.env.DBDRIVER,{
     useNewUrlParser:true,
     useUnifiedTopology:true
 })
