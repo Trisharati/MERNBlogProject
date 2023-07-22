@@ -53,7 +53,7 @@ router.post('/adminlogin',adminController.adminLogin)
 router.get('/viewblogrequest',adminController.viewBlogRequest)
 router.post('/acceptrequest/:id',adminController.acceptReq)
 router.post('/rejectrequest/:id',adminController.rejectReq)
-
+router.get('/test',adminController.test)
 
 //User Routes
 

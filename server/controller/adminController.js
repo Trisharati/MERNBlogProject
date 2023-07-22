@@ -157,6 +157,10 @@ const rejectReq = async(req,res)=>{
 }
 
 
+const test = async(req,res)=>{
+    res.status(200).json({message:'Hello World'})
+}
 
 
-module.exports={adminRegister,adminLogin,viewBlogRequest,acceptReq,rejectReq}
+
+module.exports={adminRegister,adminLogin,viewBlogRequest,acceptReq,rejectReq,test}
